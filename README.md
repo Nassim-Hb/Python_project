@@ -1,17 +1,44 @@
-Python_project
+##League of Legends Champion Analysis
+This project analyzes data about the champions in the popular online game, League of Legends. The data includes various statistics for each champion, such as win rate, pick rate, role, and more. The goal of the project is to gain insights into which champions are performing well, which roles are most popular, and how different factors impact a champion's success.
 
-Welcome to my python project based on a dataset about league of legends.
+#Data
+The data used in this project was obtained from "https://www.kaggle.com/datasets/vivovinco/league-of-legends-stats-s13", a popular website for data scientists and machine learning engineers to access datasets, participate in competitions, and collaborate with other data enthusiasts, Kaggle hosts a variety of datasets. The dataset includes information on 162 champions on the current season of the game which is season 13.
 
-Im a big fan of this game and I spend a lot of time on it.
+#Tools Used
+This project uses several tools and libraries, including:
 
-First I will explain what is league of legends to understand a little bit more the game.
+Python (version 3.7.10)
+Pandas (version 1.2.4)
+Matplotlib (version 3.4.2)
+Scikit-learn (version 0.24.2)
 
-League of Legends (LoL) is a multiplayer online battle arena (MOBA) video game developed and published by Riot Games. It was released in October 2009 and is one of the most popular and widely played games in the world, with a large and active player base. In the game, players control a champion character with unique abilities and work with their team to destroy the enemy team's nexus, which is located at the heart of their base. The game is known for its fast-paced and highly competitive gameplay, as well as its extensive roster of champions and regular updates.
+#Methodology
 
-In League of Legends, champions are the playable characters that players control in the game. Each champion has their own unique set of abilities, strengths, and weaknesses, and they can be played in various roles such as top lane, mid lane, bottom lane (Include 2 players ADC and Support), or jungle. Some of the champions are designed for dealing physical damage, while others are designed for dealing magic damage or providing utility and support for the team.
+The project begins with data exploration, using Pandas to analyze and clean the data. Various visualizations are created using Matplotlib to better understand the data and uncover any patterns or trends. The project then moves on to modeling, using Scikit-learn to create clustering models.
 
-There are currently 162 champions in League of Legends, and new champions are added periodically through updates. Champions can be obtained by purchasing them with in-game currency (IP) or with real money (RP), and players can also earn champions through the game's rotating weekly free champion roster.
+#Data exploration and data wrangling
 
-The champions in League of Legends are diverse, ranging from melee fighters to ranged mages, tanks to assassins, and everything in between. Each champion has a unique playstyle and can be played in multiple ways, making League of Legends a highly strategic and tactical game. To be successful in the game, players must understand the strengths and weaknesses of each champion and how they can be used in combination with their team to achieve victory.
+In the data exploration and data wrangling part, we analyzed the League of Legends dataset to understand the structure of the data and its variables. We checked for missing values, outliers, and duplicates in the data, and handled them accordingly. We also performed data cleaning, where we removed unnecessary columns and rows that did not contribute to the analysis.
 
-In this project we will focus on the champions of league of legends and we will see all the necessary stats of them in ranked games.
+Furthermore, we created several visualizations to gain insights into the data, such as bar charts and scatterplots to visualize the distribution and relationship of variables. We also used statistical measures like mean, median, and standard deviation to summarize the data.
+
+Overall, the data exploration and data wrangling steps were crucial in preparing the data for further analysis and modeling. We were able to identify important variables and patterns in the data that could be useful for making predictions and drawing conclusions.
+
+#Clustering Model
+
+We used a clustering model with the columns Pick %, Win %, and KDA. Clustering is a technique used in unsupervised learning to group similar data points together. The objective is to create clusters of data points that are similar to each other and different from other clusters.
+
+We first preprocessed the data by dropping missing values, filtering out champions with low pick rates, and normalizing the data. Then, we used the KMeans algorithm to create clusters of champions based on their Pick %, Win %, and KDA values.
+
+The clustering allowed us to identify groups of champions that share similar characteristics in terms of their performance in the game. This can help us gain insights into the game's meta and inform strategic decisions for players and teams.
+
+#Results
+The project found several interesting insights into the League of Legends champion data, including:
+
+The most popular role is ADC, followed closely by Mid and Top.
+Tanks have the highest win rate, while Assassins have the lowest.
+There is a positive correlation between a champion's pick rate and win rate.
+The champions can be grouped into several distinct clusters based on their attributes.
+
+#Conclusion
+Overall, this project provides valuable insights into the League of Legends champion data, which could be useful for players looking to improve their gameplay or for game developers looking to balance the game. The project also demonstrates several key skills for data science, including data exploration, visualization, and modeling.
