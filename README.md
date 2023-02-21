@@ -16,7 +16,7 @@ This project uses several tools and libraries, including:
 
 # Methodology
 
-The project begins with data exploration, using Pandas to analyze and clean the data. Various visualizations are created using Matplotlib to better understand the data and uncover any patterns or trends. The project then moves on to modeling, using Scikit-learn to create clustering models.
+The project begins with data exploration, using Pandas to analyze and clean the data. Various visualizations are created using Matplotlib and Seaborn to better understand the data and uncover any patterns or trends. The project then moves on to modeling, using Scikit-learn to create clustering models.
 
 # Data exploration and data wrangling
 
