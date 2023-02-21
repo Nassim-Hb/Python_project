@@ -1,4 +1,5 @@
 ### League of Legends Champion Analysis
+
 This project analyzes data about the champions in the popular online game, League of Legends. The data includes various statistics for each champion, such as win rate, pick rate, role, and more. The goal of the project is to gain insights into which champions are performing well, which roles are most popular, and how different factors impact a champion's success.
 
 # Data
