@@ -1,4 +1,4 @@
-## League of Legends Champion Analysis
+### League of Legends Champion Analysis
 This project analyzes data about the champions in the popular online game, League of Legends. The data includes various statistics for each champion, such as win rate, pick rate, role, and more. The goal of the project is to gain insights into which champions are performing well, which roles are most popular, and how different factors impact a champion's success.
 
 # Data
@@ -35,10 +35,10 @@ The clustering allowed us to identify groups of champions that share similar cha
 # Results
 The project found several interesting insights into the League of Legends champion data, including:
 
-The most popular role is ADC, followed closely by Mid and Top.
-Tanks have the highest win rate, while Assassins have the lowest.
-There is a positive correlation between a champion's pick rate and win rate.
-The champions can be grouped into several distinct clusters based on their attributes.
+- The most popular role is ADC, followed closely by Mid and Top.
+- Tanks have the highest win rate, while Assassins have the lowest.
+- There is a positive correlation between a champion's pick rate and win rate.
+- The champions can be grouped into several distinct clusters based on their attributes.
 
 # Conclusion
 Overall, this project provides valuable insights into the League of Legends champion data, which could be useful for players looking to improve their gameplay or for game developers looking to balance the game. The project also demonstrates several key skills for data science, including data exploration, visualization, and modeling.
