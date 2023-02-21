@@ -8,10 +8,11 @@ The data used in this project was obtained from "https://www.kaggle.com/datasets
 # Tools Used
 This project uses several tools and libraries, including:
 
-Python (version 3.7.10)
-Pandas (version 1.2.4)
-Matplotlib (version 3.4.2)
-Scikit-learn (version 0.24.2)
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn
 
 # Methodology
 
